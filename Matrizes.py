@@ -1,4 +1,4 @@
-"""#Criação de tabela com linhas e colunas
+#Criação de tabela com linhas e colunas
 matriz = [
     [5, 8, 2],
     [7, 3, 9],
@@ -50,7 +50,7 @@ for i in range(len(matriz)):
     for j in range(len(matriz[i])):
         print("Linha: ", i)
         print("Coluna: ", j)
-        print("Valor: ", matriz[i][j])"""
+        print("Valor: ", matriz[i][j])
 
 
 
