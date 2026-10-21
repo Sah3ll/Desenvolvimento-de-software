@@ -1,9 +1,6 @@
-
 import tkinter as tk
 from tkinter import messagebox
 
-
-# Classe para representar o aluno
 class Aluno:
     def __init__(self, nome, idade, nota):
         self.nome = nome
@@ -21,7 +18,6 @@ class Aluno:
         self._idade = valor
 
 
-# Classe da janela
 class Janela:
     def __init__(self, janela):
         self.janela = janela
@@ -81,8 +77,6 @@ class Janela:
         except ValueError as erro:
             messagebox.showerror("Erro", str(erro))
 
-
-# Executar o programa
 janela = tk.Tk()
 app = Janela(janela)
 janela.mainloop()
